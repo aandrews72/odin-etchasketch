@@ -1,3 +1,5 @@
-.container {
-    border: 5px solid black;
+.grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
 }
