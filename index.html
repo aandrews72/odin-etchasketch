@@ -8,17 +8,22 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Etch-a-Sketch</h1>
+<body> 
     <div class="bigContainer">
+        <h1>Etch-a-Sketch</h1>
         <div id="container">
-            <div class="grid"></div>
+            <label for="size">Size:</label>
+            <input type="number" id="size" min="2" max="99" value="16">
+            <p></p> <!-- To create space between input and buttons-->
             <div class="buttons">
                 <button>Black</button>
                 <button>Erasor</button>
                 <button>Random</button>
                 <button>Reset</button>
-            </div>  
+            </div>
+            <div class="grid">
+
+            </div>
         </div>
     </div>
 </body>
