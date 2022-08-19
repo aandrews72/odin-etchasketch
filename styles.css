@@ -1,5 +1,30 @@
+:root {
+    --gradient: linear-gradient(
+        0deg,
+        #5d57577c 0%,
+        #534c4ca3 100%
+    );
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: var(--gradient);
+}
+
 .grid {
     width: 500px;
     height: 500px;
     display: grid;
+    border-color: 1px solid black;
+    background-color: blue;
+    display: grid;
 }
+  
+  .square {
+    border-color: 1px solid black;
+    background-color: blue;
+  }
